@@ -8,12 +8,16 @@ function page() {
   return (
     <>
       <div className="">
-        <div className="items-center">
+        <div className="">
           <Nav />
-          <Header />
+          <div className="bg-purple-300 ">
+            <Header />
 
-          <Content />
-          <Footer />
+            <Content />
+            <div className="">
+              <Footer />
+            </div>
+          </div>
         </div>
       </div>
     </>
